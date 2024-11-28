@@ -1,0 +1,4 @@
+in console use coordinate system to pick questions
+coordinates origin is in the top left and starts at (1,1)
+For example, if you wanted the 600$ question from the second category, you would type 23 in the console
+categories and hints are placeholders that can be customized at your leisure
