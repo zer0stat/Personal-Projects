@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Page count to word count Royal Road",
+    "description": "Replaces the page count on royalroad.com for a word count instead",
+    "version": "1.0",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://www.royalroad.com/fictions/*"],
+            "js": ["./substitution.js"]
+        }
+    ]
+}
